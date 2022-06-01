@@ -77,6 +77,18 @@ h6 {
     width: 80vw;
   }
 }
+.btn-outline-light .linkTreeIcon {
+  -webkit-transition: color 2s ease-out;
+  -moz-transition: color 2s ease-out;
+  -o-transition: color 2s ease-out;
+  -ms-transition: color 2s ease-out;
+  transition: color 2s ease-out;
+}
 .btn-outline-light:hover .linkTreeIcon {
   color: #111 !important;
+  -webkit-transition: color 2s ease-out;
+  -moz-transition: color 2s ease-out;
+  -o-transition: color 2s ease-out;
+  -ms-transition: color 2s ease-out;
+  transition: color 2s ease-out;
 }
