@@ -1,39 +1,3 @@
-@-webkit-keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@-moz-keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
 h1,
 h6 {
   font-family: 'Open Sans';
@@ -106,5 +70,13 @@ h6 {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 600px;
+  width: 40vw;
+}
+@media (max-width: 480px) {
+  .test {
+    width: 80vw;
+  }
+}
+.btn-outline-light:hover .linkTreeIcon {
+  color: #111 !important;
 }
